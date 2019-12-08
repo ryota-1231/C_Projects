@@ -153,17 +153,65 @@ namespace C_Projects
                }
                Console.WriteLine(sum);*/
 
-            var num = Console.ReadLine();
-            var n = int.Parse(num);
-            var str = "*";
-            var sum = "*";
-            for (var i = 0; i < n; i++)
+            /*    var num = Console.ReadLine();
+                var n = int.Parse(num);
+                var str = "*";
+                var sum = "*";
+                for (var i = 0; i < n; i++)
+                {
+                    Console.WriteLine(sum);
+                    sum += str;
+                }*/
+
+
+            /*            配列*/
+
+            /*var score = new int[5] ;
+            var sum = 0;
+            for (var i = 0; i < score.Length; i++)
             {
-                Console.WriteLine(sum);
-                sum += str;
+                var num = Console.ReadLine();
+                var n = int.Parse(num);
+                score[i] = n;
             }
 
+            foreach (var p in score)
+            {
+                sum += p;
+            }
+            Console.WriteLine(sum);*/
 
+            /*       var numbers = new int[8];
+                   var sum = 0;
+                   for (var i = 0; i < numbers.Length; i++)
+                   {
+                       var input = Console.ReadLine();
+                       var num = int.Parse(input);
+                       sum += num;
+                   }
+                   var ave = (double)sum / numbers.Length;
+                   Console.WriteLine($"合計{sum},平均{ave}です");
+       */
+
+            /* var numbers = new int[20];
+             for (var i = 0; i < numbers.Length; i++)
+             {
+                 numbers[i] = 100 + i;
+
+                 Console.WriteLine(numbers[i]);
+             }*/
+
+            string[] strs = { "hhh", "ttttt", "gg","5555555555"};
+            var line = "";
+            foreach (var str in strs)
+            {
+                if (line.Length <= str.Length)
+                {
+                    line = str;
+                }
+            }
+            Console.WriteLine(line);
+           
         }
     }
 }
