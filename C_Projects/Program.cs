@@ -69,22 +69,100 @@ namespace C_Projects
                      break;
              }*/
 
-         /*   var value = Console.ReadLine();
-            *//*   if (value == "")
-               {
-                   Console.WriteLine("空文字です");
-               }*//*
+            /*   var value = Console.ReadLine();
+               *//*   if (value == "")
+                  {
+                      Console.WriteLine("空文字です");
+                  }*//*
 
-            var num = int.Parse(value);
-            if (num == 0)
+               var num = int.Parse(value);
+               if (num == 0)
+               {
+                   Console.WriteLine("値は0です");
+               } else if (num > 0) {
+                   Console.WriteLine("値は正の数字です");
+               } else
+               {
+                   Console.WriteLine("値は負の数字です");
+               }*/
+
+            /*      繰り返し処理*/
+
+            /*  var year = 1;
+              while (year <= 64)
+              {
+                  var westernYear = year + 1925;
+                  Console.WriteLine($"昭和{year}年　西暦{westernYear}年");
+                  year++;
+              }*/
+
+            /*  for (var year = 1; year <= 64; year++)
+              {
+                  var westernYear = year + 1925;
+                  Console.WriteLine($"昭和{year}年　西暦{westernYear}年");
+              }*/
+
+            /*  var line = "";
+              var num = 0;
+              do
+              {
+                  Console.WriteLine("負の整数を入力してください");
+                  line = Console.ReadLine();
+                  if (line != "")
+                  {
+                      num = int.Parse(line) ;
+
+                  }  
+              } while (num >= 0);
+              Console.WriteLine(num);*/
+            /*
+                        var content = "";
+                        for (var n = 0; n < 10; n++)
+                        {
+                            var num = content.Length;
+                            var str = Console.ReadLine();
+                            var strLength = str.Length;
+                            if (num <= strLength)
+                            {
+                                content = str;
+                            }
+
+                        }
+                        Console.WriteLine(content);*/
+
+            /*     var num = 0;
+                 for (var i = 1; i < 501; i++)
+                 {
+                     if((i % 3 == 0 || i % 7 ==0) && i % 2 != 0)
+                     {
+                         num ++;
+                     }
+                 }
+                 Console.WriteLine(num);*/
+            /*   var sum = 0;
+               while(true)
+               {
+                   Console.WriteLine("数字を入力してください");
+                   var num = Console.ReadLine();
+                   var n = int.Parse(num);
+                   if (n <= 0)
+                   {
+                       break;
+                   }
+                   sum += n;
+               }
+               Console.WriteLine(sum);*/
+
+            var num = Console.ReadLine();
+            var n = int.Parse(num);
+            var str = "*";
+            var sum = "*";
+            for (var i = 0; i < n; i++)
             {
-                Console.WriteLine("値は0です");
-            } else if (num > 0) {
-                Console.WriteLine("値は正の数字です");
-            } else
-            {
-                Console.WriteLine("値は負の数字です");
-            }*/
+                Console.WriteLine(sum);
+                sum += str;
+            }
+
 
         }
     }
