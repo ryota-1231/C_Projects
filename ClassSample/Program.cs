@@ -35,31 +35,44 @@ namespace ClassSample
                         Console.WriteLine("{0:.00}", bmi);
                         Console.WriteLine($"あなたは「{type}」です");*/
 
-            var employee = new Employee
-            {
-                Id = 1,
-                FamilyName = "aoyagi",
-                GivenName = "ryota",
-                EmailAddress = "rrr@gmail.com"
-            };
+            /*   var employee = new Employee
+               {
+                   Id = 1,
+                   FamilyName = "aoyagi",
+                   GivenName = "ryota",
+                   EmailAddress = "rrr@gmail.com"
+               };
 
 
 
-            var employee1 = new Employee
-            {
-                Id = 1,
-                FamilyName = "aoyagi",
-                GivenName = "misaki",
-                EmailAddress = "rrr@gmail.com"
-            };
+               var employee1 = new Employee
+               {
+                   Id = 1,
+                   FamilyName = "aoyagi",
+                   GivenName = "misaki",
+                   EmailAddress = "rrr@gmail.com"
+               };
 
-            Console.WriteLine(employee.GetFullName());
-            Console.WriteLine(employee1.GetFullName());
+               Console.WriteLine(employee.GetFullName());
+               Console.WriteLine(employee1.GetFullName());*/
+
+            /*var num1 = Console.ReadLine();
+            var num2 = Console.ReadLine();
+
+            var n1 = double.Parse(num1);
+            var n2 = double.Parse(num2);
+            Console.WriteLine(Math.Min(n1, n2));*/
+
+          /*  var date = DateTime.DaysInMonth(2020, 2);
+            Console.WriteLine(date);*/
+
+            var date1 = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine(date1.ToString("(ddd)"));
 
         }
     }
 
-    class Book
+    /*class Book
     {
         public string Title { get; set; }
         public string Author { get; set; }
@@ -140,5 +153,7 @@ namespace ClassSample
         {
             return $"{FamilyName} {GivenName}";   
         }
-    }
+    }*/
+
+   
 }
