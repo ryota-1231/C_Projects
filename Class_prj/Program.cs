@@ -71,7 +71,7 @@ namespace ClassSample
 
             var nums = ArrayUtils.GetArray(5);
             var total = 0;
-            foreach ( var x in nums)
+            foreach (var x in nums)
             {
                 total += x;
             }
@@ -177,5 +177,5 @@ namespace ClassSample
             return array;
         }
     }
-   
+
 }
