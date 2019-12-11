@@ -10,25 +10,47 @@ namespace Card_prj
     {
         static void Main(string[] args)
         {
-            var card = new Card('H', 8);
-            card.Print();
-            if (card.Suit == 'D')
-            {
-                Console.WriteLine("ダイヤです");
-            }
-            else
-            {
-                Console.WriteLine("ダイヤではありません");
-            }
+            /*    var card = new Card(CardSuit.Heart, 8);
+                card.Print();
+                if (card.Suit == CardSuit.Diamond)
+                {
+                    Console.WriteLine("ダイヤです");
+                }
+                else
+                {
+                    Console.WriteLine("ダイヤではありません");
+                }*/
+
+            /* 列挙型*/
+            /* var week = DayOfWeek.Sunday;
+             if (week == DayOfWeek.Friday)
+             {
+                 Console.WriteLine("金曜日です");
+             }
+             else
+             {
+                 Console.WriteLine("金曜日ではありません");
+             }
+         }*/
+
+          
         }
     }
 
+    /*    構造体・列挙型*/
+    enum CardSuit
+    {
+        Club,
+        Spade,
+        Heart,
+        Diamond
+    }
     struct Card
     {
-        public char Suit { get; private set; }
+        public CardSuit Suit { get; private set; }
         public int Number { get; private set; }
 
-        public Card(char suit, int number)
+        public Card(CardSuit suit, int number)
         {
             Suit = suit;
             Number = number;
@@ -39,20 +61,22 @@ namespace Card_prj
             var s = "";
             switch (Suit)
             {
-                case 'H':
+                case CardSuit.Heart:
                     s = "ハート";
                     break;
-                case 'D':
+                case CardSuit.Diamond:
                     s = "ダイヤ";
                     break;
-                case 'S':
+                case CardSuit.Spade:
                     s = "スペード";
                     break;
-                case 'C':
+                case CardSuit.Club:
                     s = "クラブ";
                     break;
             }
             Console.WriteLine($"{s} {Number}");
         }
     }
+
+
 }
