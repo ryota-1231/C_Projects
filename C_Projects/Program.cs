@@ -201,16 +201,18 @@ namespace C_Projects
                  Console.WriteLine(numbers[i]);
              }*/
 
-            string[] strs = { "hhh", "ttttt", "gg","5555555555"};
-            var line = "";
-            foreach (var str in strs)
-            {
-                if (line.Length <= str.Length)
-                {
-                    line = str;
-                }
-            }
-            Console.WriteLine(line);
+            //string[] strs = { "hhh", "ttttt", "gg","5555555555"};
+            //var line = "";
+            //foreach (var str in strs)
+            //{
+            //    if (line.Length <= str.Length)
+            //    {
+            //        line = str;
+            //    }
+            //}
+            //Console.WriteLine(line);
+
+            
            
         }
     }

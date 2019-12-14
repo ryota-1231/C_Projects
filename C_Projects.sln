@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method_prj", "Method_prj\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card_prj", "Card_prj\Card_prj.csproj", "{251842D1-4244-4518-A700-6ED060946B9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paiza_log", "Paiza_log\Paiza_log.csproj", "{F364A488-8ADB-40E1-A413-EAE4D19BBF75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{251842D1-4244-4518-A700-6ED060946B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{251842D1-4244-4518-A700-6ED060946B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{251842D1-4244-4518-A700-6ED060946B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F364A488-8ADB-40E1-A413-EAE4D19BBF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F364A488-8ADB-40E1-A413-EAE4D19BBF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F364A488-8ADB-40E1-A413-EAE4D19BBF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F364A488-8ADB-40E1-A413-EAE4D19BBF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
