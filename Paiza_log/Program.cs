@@ -231,6 +231,61 @@ namespace Paiza_log
             //{
             //    Console.WriteLine(mem);
             //}
+
+            //ログのフィルター
+            //var line = Console.ReadLine();
+            //var imp = Console.ReadLine();
+            //var str = new List<string>();
+            //for (var i = 0; i < int.Parse(line); i++)
+            //{
+            //    var target = Console.ReadLine();
+            //    var num = target.IndexOf(imp);
+            //    if (num >= 0)
+            //    {
+            //        str.Add(target);
+            //    }
+            //    else
+            //    {
+            //        continue;
+            //    }
+            //}
+            //if (str.Count == 0)
+            //{
+            //    Console.WriteLine("None");
+            //}
+            //else
+            //{
+            //    foreach (var s in str)
+            //    {
+            //        Console.WriteLine(s);
+            //    }
+            //}
+
+            //数字の調査
+            //var line = Console.ReadLine();
+            //var nums = line.Split(' ').Select(int.Parse).ToArray();
+            //var num = nums[1];
+            //var orders = new List<int>();
+            //var lists = new List<int>();
+            //for (var i = 0; i < nums[0]; i++)
+            //{
+            //    orders.Add(int.Parse(Console.ReadLine()));
+            //}
+
+            //while (true)
+            //{
+            //    if (num == 0 || num == 1)
+            //    {
+            //        lists.Add(num);
+            //        break;
+            //    }
+            //    lists.Add(num % 2);
+            //    num = num / 2;
+            //}
+            //foreach (var ord in orders)
+            //{
+            //    Console.WriteLine(lists[ord - 1]);
+            //}
         }
     }
 }
