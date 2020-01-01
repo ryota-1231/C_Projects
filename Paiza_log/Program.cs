@@ -286,6 +286,19 @@ namespace Paiza_log
             //{
             //    Console.WriteLine(lists[ord - 1]);
             //}
-        }
+
+        //    public class Hello
+        //{
+        //    public static void Main()
+        //    {
+        //        // 自分の得意な言語で
+        //        // Let's チャレンジ！！
+
+        //        var line = System.Console.ReadLine();
+        //        var result = 100 + 10 * int.Parse(line);
+        //        System.Console.WriteLine(result);
+        //    }
+        //}
+    }
     }
 }
