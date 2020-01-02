@@ -287,18 +287,72 @@ namespace Paiza_log
             //    Console.WriteLine(lists[ord - 1]);
             //}
 
-        //    public class Hello
-        //{
-        //    public static void Main()
-        //    {
-        //        // 自分の得意な言語で
-        //        // Let's チャレンジ！！
+            //    public class Hello
+            //{
+            //    public static void Main()
+            //    {
+            //        // 自分の得意な言語で
+            //        // Let's チャレンジ！！
 
-        //        var line = System.Console.ReadLine();
-        //        var result = 100 + 10 * int.Parse(line);
-        //        System.Console.WriteLine(result);
-        //    }
-        //}
-    }
+            //        var line = System.Console.ReadLine();
+            //        var result = 100 + 10 * int.Parse(line);
+            //        System.Console.WriteLine(result);
+            //    }
+            //}
+
+            //先生の宿題
+
+            //var line = System.Console.ReadLine();
+            //// System.Console.WriteLine(line);
+            //var src = line.Split(' ');
+            //var lists = new List<string>();
+            //lists.AddRange(src);
+            //var x = "x";
+            //var plus = "+";
+            //var num = lists.IndexOf(x);
+            //var judge = lists.IndexOf(plus);
+
+            //if (num == 4)
+            //{
+            //    if (judge >= 0)
+            //    {
+            //        var result = int.Parse(lists[0]) + int.Parse(lists[2]);
+            //        Console.WriteLine(result);
+            //    }
+            //    else
+            //    {
+            //        var result = int.Parse(lists[0]) - int.Parse(lists[2]);
+            //        Console.WriteLine(result);
+            //    }
+            //}
+            //else if (num == 2)
+            //{
+            //    if (judge >= 0)
+            //    {
+            //        var result = int.Parse(lists[4]) - int.Parse(lists[0]);
+            //        Console.WriteLine(result);
+            //    }
+            //    else
+            //    {
+            //        var result = int.Parse(lists[0]) - int.Parse(lists[4]);
+            //        Console.WriteLine(result);
+            //    }
+            //}
+            //else
+            //{
+            //    if (judge >= 0)
+            //    {
+            //        var result = int.Parse(lists[4]) - int.Parse(lists[2]);
+            //        Console.WriteLine(result);
+            //    }
+            //    else
+            //    {
+            //        var result = int.Parse(lists[4]) + int.Parse(lists[2]);
+            //        Console.WriteLine(result);
+            //    }
+            //}
+
+
+        }
     }
 }
