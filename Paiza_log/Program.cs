@@ -353,6 +353,39 @@ namespace Paiza_log
             //}
 
 
-        }
+
+            //エレベーター
+            //var num = int.Parse(Console.ReadLine());
+            //var lists = new List<int>();
+            //var result = 0;
+            //for (var i = 0; i < num; i++)
+            //{
+            //    if (i == 0)
+            //    {
+            //        var n = int.Parse(Console.ReadLine());
+            //        result = n - 1;
+            //        lists.Add(n);
+            //    }
+            //    else
+            //    {
+
+            //        var n = int.Parse(Console.ReadLine());
+            //        lists.Add(n);
+            //        if (lists[i - 1] >= lists[i])
+            //        {
+            //            result += lists[i - 1] - lists[i];
+            //        }
+            //        else
+            //        {
+            //            result += lists[i] - lists[i - 1];
+            //        }
+            //    }
+
+            //}
+            //Console.WriteLine(result);
+        
+
+
+    }
     }
 }
