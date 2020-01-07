@@ -444,6 +444,9 @@ namespace Paiza_log
             //var num = int.Parse(System.Console.ReadLine());
             //System.Console.WriteLine(line / num);
 
+            //var line = int.Parse(System.Console.ReadLine());
+            //System.Console.WriteLine(line * 60);
+
         }
     }
 }
